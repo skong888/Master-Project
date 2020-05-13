@@ -1,0 +1,61 @@
+Pruned Perforated Lite
+------Shapiro-------
+Nano
+Statistics=0.554, p=0.000
+Sample does not look Gaussian (reject H0)
+
+Pi
+Statistics=0.399, p=0.000
+Sample does not look Gaussian (reject H0)
+
+Coral
+Statistics=0.984, p=0.261
+Sample looks Gaussian (fail to reject H0)
+
+------Normaltest-------
+Nano
+Statistics=25.434, p=0.000
+Sample does not look Gaussian (reject H0)
+
+Pi
+Statistics=87.824, p=0.000
+Sample does not look Gaussian (reject H0)
+
+Coral
+Statistics=2.457, p=0.293
+Sample looks Gaussian (fail to reject H0)
+
+------Anderson-------
+Nano
+Statistic: 22.028
+15.000: 0.555, data does not look normal (reject H0)
+10.000: 0.632, data does not look normal (reject H0)
+5.000: 0.759, data does not look normal (reject H0)
+2.500: 0.885, data does not look normal (reject H0)
+1.000: 1.053, data does not look normal (reject H0)
+
+Pi
+Statistic: 25.978
+15.000: 0.555, data does not look normal (reject H0)
+10.000: 0.632, data does not look normal (reject H0)
+5.000: 0.759, data does not look normal (reject H0)
+2.500: 0.885, data does not look normal (reject H0)
+1.000: 1.053, data does not look normal (reject H0)
+
+Coral
+Statistic: 0.351
+15.000: 0.555, data looks normal (fail to reject H0)
+10.000: 0.632, data looks normal (fail to reject H0)
+5.000: 0.759, data looks normal (fail to reject H0)
+2.500: 0.885, data looks normal (fail to reject H0)
+1.000: 1.053, data looks normal (fail to reject H0)
+
+Kruskal test
+Statistics=265.791, p=0.000
+Different distribution (reject H0)
+
+Dunn test
+              1             2             3
+1 -1.000000e+00  7.185999e-16  7.185999e-16
+2  7.185999e-16 -1.000000e+00  2.814666e-59
+3  7.185999e-16  2.814666e-59 -1.000000e+00
